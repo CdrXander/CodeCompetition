@@ -30,6 +30,16 @@ describe('toyProblemChallenge', function() {
     })
   });
 
+  describe('fakeBin', function() {
+    it('should exist', function() {
+      expect(fakeBin).toBeDefined();
+    })
+    it('should return the correct string of 1s and 0s', function () {
+      expect(fakeBin('554881900856019316692704')).toEqual('110110100111001001110100');
+      expect(fakeBin('1891364928')).toEqual('0110010101');
+    })
+  })
+
   describe('countByX', function() {
     it('should exist', function() {
       expect(countByX).toBeDefined();
@@ -53,13 +63,14 @@ describe('toyProblemChallenge', function() {
     })
   })
 
-  describe('fakeBin', function() {
+  describe('getMiddle', function() {
     it('should exist', function() {
-      expect(fakeBin).toBeDefined();
+      expect(getMiddle).toBeDefined();
     })
-    it('should return the correct string of 1s and 0s', function () {
-      expect(fakeBin('554881900856019316692704')).toEqual('110110100111001001110100');
-      expect(fakeBin('1891364928')).toEqual('0110010101');
+    it('should return the correct answer', function() {
+      expect(getMiddle('testing')).toEqual('t')
+      expect(getMiddle('middle')).toEqual('dd');
+      expect(getMiddle('fbQoLkkHccikuAYvzgkfAszmeVzvYkExNlszjxtsJzaztTsjtMJMcpWygqLbCFdSYZZKuRGWundefinedQipeshKBIcXMWpSIxnbOvzLgPjlzcIdhkLOOYnKcPYTRIJDOwIiNJKSnRybxtIeieDphPymfzeGPxOyDgYNeVEVKSNGQunGebRhzfzundefinedaTFKRKjbDeJFdvyaWuyIqoLWYFqYMDmoHtJkCkVJOCGyxhhirqbOHxilbmLuIlqVrQdTkIMrbGbgiOKnyiAvQOCglmtemXhfaGfEremyypfTiiUJqczjQaaMUFJFyVbcvFzaHxJFIfQBxzHOwQWnPnzundefinedYNMHwbkuKoqXNVmD')).toEqual('un');
     })
   })
 
@@ -75,16 +86,6 @@ describe('toyProblemChallenge', function() {
     })
   })
 
-  describe('getMiddle', function() {
-    it('should exist', function() {
-      expect(getMiddle).toBeDefined();
-    })
-    it('should return the correct answer', function() {
-      expect(getMiddle('testing')).toEqual('t')
-      expect(getMiddle('middle')).toEqual('dd');
-      expect(getMiddle('fbQoLkkHccikuAYvzgkfAszmeVzvYkExNlszjxtsJzaztTsjtMJMcpWygqLbCFdSYZZKuRGWundefinedQipeshKBIcXMWpSIxnbOvzLgPjlzcIdhkLOOYnKcPYTRIJDOwIiNJKSnRybxtIeieDphPymfzeGPxOyDgYNeVEVKSNGQunGebRhzfzundefinedaTFKRKjbDeJFdvyaWuyIqoLWYFqYMDmoHtJkCkVJOCGyxhhirqbOHxilbmLuIlqVrQdTkIMrbGbgiOKnyiAvQOCglmtemXhfaGfEremyypfTiiUJqczjQaaMUFJFyVbcvFzaHxJFIfQBxzHOwQWnPnzundefinedYNMHwbkuKoqXNVmD')).toEqual('un');
-    })
-  })
 
   describe('persistence', function () {
     it('should exist', function() {

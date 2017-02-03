@@ -3,7 +3,8 @@
 //Code Here
 
 
-// create a function called fizzBuzz, fizzBuzz will receive one parameter a Number
+
+// Create a function called fizzBuzz, fizzBuzz will receive one parameter a Number
 // if the number is divisable by 3 return 'fizz', if it is divisable by 5 return 'buzz'
 // if it is divisble by both 3 and 5 return 'fizzbuzz', if the number is not divisble
 // by 3 or 5 then return 'boring!'
@@ -11,7 +12,7 @@
 //Code Here
 
 
-// Fake Binary
+
 // Create a function fakeBin
 // Given a string of numbers, you should replace any number below 5 with '0'
 // and any number 5 and above with '1'. Return the resulting string.
@@ -34,9 +35,9 @@
 
 
 
-// An isogram is a word that has no repeating letters, consecutive or non-consecutive.
-// Implement a function that determines whether a string that contains only letters is an isogram.
-// Assume the empty string is an isogram. Ignore letter case.
+// Create a function isIsogram. An isogram is a word that has no repeating letters,
+// consecutive or non-consecutive. Implement a function that determines whether a string that contains
+// only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.
 //examples
 // isIsogram( "Dermatoglyphics" ) == true
 // isIsogram( "aba" ) == false
@@ -46,10 +47,10 @@
 
 
 
-// Get the Middle Character
+// Create a function getMiddle
 // You are going to be given a word. Your job is to return the middle character of the word.
 // If the word's length is odd, return the middle character. If the word's length is even,
-// return the middle 2 characters. The function should be named getMiddle
+// return the middle 2 characters.
 //
 // Examples:
 // getMiddle("test") should return "es"
@@ -59,7 +60,6 @@
 
 
 
-//Fibonacci
 // Create a function fibonacci that returns an array of fibonacci numbers.
 // The function takes a number as an argument to decide how many no. of elements to produce.
 // If the argument is less than or equal to 0 then return empty array
@@ -72,8 +72,6 @@
 // Fibonacci Explained: https://www.mathsisfun.com/numbers/fibonacci-sequence.html
 
 //Code Here
-
-
 
 
 // Write a function, persistence, that takes in a positive parameter num and returns its
@@ -92,8 +90,6 @@
 //
 
 //code here
-
-
 
 
  // Write a function called validParentheses that takes a string of parentheses, and
