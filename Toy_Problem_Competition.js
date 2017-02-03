@@ -18,7 +18,7 @@
 // and any number 5 and above with '1'. Return the resulting string.
 // the return value should be a string of numbers
 
-//code here
+//Code here
 
 
 
@@ -103,6 +103,19 @@
  // validParentheses( "(())((()())())" ) => returns true
  //
  // All input strings will be nonempty, and will only consist of open parentheses '(' and/or closed parentheses ')'
+
+
+// Code Here
+
+
+
+// Write a function called paascalsTriangle that, given a depth (n), returns a single-dimensional
+// array representing Pascal's Triangle to the n-th level.
+//
+// examples
+// pascalsTriangle(4) == [1,1,1,1,2,1,1,3,3,1]
+// pascalsTriangle(5) == [1,1,1,1,2,1,1,3,3,1,1,4,6,4,1]
+// Wikipedia article on Pascal's Triangle: http://en.wikipedia.org/wiki/Pascal's_triangle
 
 
 // Code Here
