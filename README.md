@@ -1,0 +1,1 @@
+This was a code challenge during my final night at DevMountain. All participants had one hour to finish as many of the coding problems as they could. I am the only one who finished every problem within the time limit. 
